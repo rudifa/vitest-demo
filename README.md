@@ -1,5 +1,21 @@
 # A vitest demo project
 
+### Install
+
+#### Install `eslint`
+
+```
+npm install eslint --save-dev
+npm init @eslint/config   # interactive
+```
+
+```
+"scripts": {
+    "test": "vitest",
+    "lint": "eslint ."
+},
+```
+
 ### Problems?
 
 #### Warning seen when running `npm test`
