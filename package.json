@@ -1,0 +1,23 @@
+{
+    "name": "vitest-demo",
+    "version": "1.0.0",
+    "description": "Demo using vitest",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "vitest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "."
+    },
+    "keywords": [
+        "vitest"
+    ],
+    "author": "rudi.farkas@gmail.com",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^9.11.1",
+        "vitest": "^2.1.1"
+    }
+}
